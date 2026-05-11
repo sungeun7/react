@@ -17,6 +17,7 @@ const BRICK_PADDING = 5
 
 export default function App() {
   const canvasRef = useRef(null)
+  /*벽돌깨기 게임*/
 
   const score = useRef(0)
   const [gameOver, setGameOver] = useState(false)
